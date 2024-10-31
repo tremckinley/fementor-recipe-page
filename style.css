@@ -1,0 +1,80 @@
+:root {
+    --eggshell: #F3E5D7;
+    --darkraspberry: #7A284E;
+    --snow: #FFF7FB;
+    --wengebrown: #5F564D;
+    --brandyred: #854632;
+}
+
+body {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    background-color: var(--eggshell);
+    font-family: "Outfit", sans-serif;
+    color: var(--wengebrown)
+}
+
+.content-container {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    padding: 40px;
+    border-radius: 24px;
+    background-color: white;
+    max-width: 736px;
+    justify-content: center;
+}
+
+.head-image {
+    height: 300px;
+    border-radius: 12px;
+    margin-bottom: 40px;
+}
+
+.title-box {
+    margin-bottom: 32px;
+    
+}
+
+.prep-time-box {
+    background-color: var(--snow);
+    border-radius: 12px;
+    padding: 28px;
+    
+}
+
+.heading-lg {
+    font-family: "Young Serif", serif;
+    font-size: 40px;
+    color: #312E2C
+}
+
+.heading-sm {
+    font-family: "Outfit", sans-serif;
+    font-size: 20px;
+    color: var(--darkraspberry);
+}
+
+.heading-md {
+    font-family: "Young Serif", serif;
+    font-size: 28px;
+    font-weight: 400;
+    color: var(--brandyred);
+    margin-bottom: 24px;
+    text-shadow: 0px 4px 4px #00000025;
+}
+
+li p{
+    position: relative;
+    left: 16px;
+}
+
+li span {
+    font-weight: bold;
+}
+
+::marker {
+    color: var(--darkraspberry);
+    font-size: small;
+}
