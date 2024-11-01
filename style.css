@@ -123,8 +123,12 @@ hr {
         padding: 0 10px;
     }
 
+    .instructions-box {
+        padding-right: 20px;
+    }
+
     html, body {
-        overflow-x: scroll;
+        overflow-x: hidden;
       }
 
 }
