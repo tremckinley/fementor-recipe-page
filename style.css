@@ -101,10 +101,11 @@ hr {
 }
 
 @media only screen and (max-width: 476px) {
-    
     .content-container {
         width: 100vw;
-        padding: 0;
+        padding: 0 10px;
         margin: 0;
     }
+
+
 }
